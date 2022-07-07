@@ -1,0 +1,23 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     
+    font-size: 10px;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+h1 {
+    color: navy;
+}
+#homework {
+    margin: 50px 10px;
+
+}
+
+.homework-item {
+    padding-top: 20px
+}
+
+h3 {
+    margin: 5px 0;
+}
