@@ -1,7 +1,8 @@
 # Intro To Front End Web Dev
 ## Tuesday & Thursday, 4:15 - 5:45 PM, 1 Credit, Prof. Will Field wfield@gc.cuny.edu
 
-*_Original repo is nested under this folder (IntroToWebDev)_
+*_Original repo at https://github.com/Willjfield/IntroToWebDev_
+deployed: https://shokolocomocco.github.io/IntroToWebDev-Sum2022/
 
 ## Course Dates: 6/28 (on Zoom), 6/30, 7/5, 7/7, 7/19, 7/21, 7/26, 7/28, 8/2, 8/4
 
