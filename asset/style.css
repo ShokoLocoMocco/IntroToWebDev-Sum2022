@@ -6,12 +6,31 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-h1 {
-    color: navy;
+body {
+    background: linear-gradient(
+        115deg,       
+        rgba(62, 9, 161, 0.4),
+        rgba(207,248,255, 0.7)
+        );
 }
+
+#hw-header {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: rgb(62, 9, 161);
+    padding: 20px 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+
+
 #homework {
     margin: 50px 10px;
-
 }
 
 .homework-item {
