@@ -7,18 +7,22 @@ html {
   }
 
 body {
-    background: linear-gradient(
+    background-image: linear-gradient(
         115deg,       
-        rgba(62, 9, 161, 0.4),
-        rgba(207,248,255, 0.7)
-        );
+        rgba(62, 9, 161, 0.8),
+        rgba(128, 29, 119, 0.8)),
+        url("IMG_5549.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(207,248,255)
 }
 
 #hw-header {
     width: 100%;
     position: relative;
     top: 0px;
-    background-color: rgb(62, 9, 161);
+    background-color: rgba(62, 9, 161, 0.8);
     padding: 20px 0;
 }
 
