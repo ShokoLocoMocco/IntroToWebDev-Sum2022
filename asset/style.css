@@ -1,8 +1,8 @@
 html {
     /* Setting a base font size of 10px give us easier rem calculations
        Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
-     
-    font-size: 10px;*/
+     */
+    font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
@@ -15,7 +15,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color:rgb(207,248,255)
+    color:rgb(207,248,255);
+    font-size: 1.2rem;
+}
+
+#plans {
+    background-image: linear-gradient(
+        115deg,       
+        rgba(0,0,0,0.9),
+        rgba(44, 44, 44, 0.8)),
+        url("IMG_5549.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 #hw-header {
@@ -26,12 +40,27 @@ body {
     padding: 20px 0;
 }
 
+#plan-header {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: #000;
+    padding: 20px 0;
+}
+
 h1 {
     color: #fff;
     text-align: center;
 }
 
+#plans h1 {
+    color: #1DB954;
+    text-align: center;
+}
 
+#plans h2 {
+    color: #1DB954;
+}
 
 #homework {
     margin: 50px 10px;
@@ -43,4 +72,13 @@ h1 {
 
 h3 {
     margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(159, 229, 241);
+} 
+
+a:hover {
+    color: #fff;
 }
