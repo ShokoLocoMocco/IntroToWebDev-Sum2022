@@ -82,3 +82,13 @@ a {
 a:hover {
     color: #fff;
 }
+
+#image {
+    margin: 50px auto;
+}
+
+@media (max-width: 540px) {
+    img {
+        width: 90%;
+    }    
+}
