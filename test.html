@@ -25,64 +25,22 @@ Image -->
 <p>Click on the button to open the dropdown menu, and use the input field to search for a specific dropdown link.</p>
 
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <button onclick="myFunction()" class="dropbtn"><h3 id="topic">What's hot in music scene today?</h3>
+  </button>
+  
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
     <a href="#about" onclick="selectedArtist('#Beyonce')">Beyonce Renaissance</a>
-    <a href="#base">Base</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
-    <a href="#custom">Custom</a>
-    <a href="#support">Support</a>
-    <a href="#tools">Tools</a>
+    <a href="#base">Shakira 8 Years in Prison</a>
+    <a href="#blog">Lollapalooza</a>
+    <a href="#contact">Billboard Chart</a>
+    <a href="#custom">Drake / Cordae Beard</a>
   </div>
 </div>
 
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-function filterFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  div = document.getElementById("myDropdown");
-  a = div.getElementsByTagName("a");
-  for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-
-function selectedArtist(hashtag) {
-
-
-const options = {
-  method: 'GET',
-  url: 'https://twitter60.p.rapidapi.com/user_info',
-  params: {user_name: 'yua_mikami'},
-  headers: {
-    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-    'X-RapidAPI-Host': 'twitter60.p.rapidapi.com'
-  }
-};
-
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
-});
-} 
-
-</script>
 
 </body>
+<script src="./asset/script.js"></script>
 </html>
 
